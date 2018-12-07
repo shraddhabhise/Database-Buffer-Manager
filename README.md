@@ -1,7 +1,7 @@
 # Database-Buffer-Manager
 
 To implement a simplified version of Buffer Manager layer of minibase, without support for concurrency control or recovery.
-Disk manager layer was provided already for this project. For page replacement, it uses clock algorithm.
+Disk manager layer was provided already for this project. For page replacement, it uses clock algorithm, which approximates LRU behavior with less overhead.
 
 # Functionality implemented 
 
